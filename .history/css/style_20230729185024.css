@@ -1,0 +1,198 @@
+*{
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0 0;
+}
+.main1{
+    display: flex;
+    background-color: rgb(17, 17, 56);
+    color: aliceblue;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.nav-menu1{
+    width: 80%;
+    background-color: rgb(17, 17, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+   display: inline-flex;
+   list-style: none;
+}
+nav ul li a{
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: .8rem;
+    text-decoration: none;
+}
+nav ul li a i{
+    margin-right: 10px;
+}
+.fa-solid{
+    margin-left: 5px;
+}
+.nav-icon i{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.fa-magnifying-glass{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.nav ul li a:hover{
+    color:gold;
+}
+.nav-icon i:hover{
+    color: gold;
+}
+
+.nav-menu2{
+    background-color: #fff; 
+    padding: 5px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.Univ{
+    width: 350px;
+    margin-right: 10px;
+}
+
+.nav-services ul{
+    display: flex;
+    margin-left: auto;
+    align-items:end;
+    text-decoration: none;
+}
+
+.nav-services > ul li{
+    display: inline-flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav-services > ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.nav-services > ul li a i{
+    margin-left: 10px;
+}
+
+.nav-services > ul li a:hover{
+    color: gray;
+}
+
+.wallpaper1{
+    height: 350px;
+    width: 100%;
+    margin-left: 1%;
+    background-image: url("../images/BTS-Bangtan-Sonyeondan-2023-Fest.jpg");
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-position: center center;
+}
+
+.logos{
+    background-color: #f0f0f0; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.container2{
+    display: flex;
+    justify-content: center; 
+}
+
+.container2 img {
+    max-width: 70px; 
+    margin: 0 15px; 
+}
+
+.about-ustp-header{
+    background-color: #220e5f; 
+    padding: 20px 20px 20px 20px; 
+    justify-content: flex-end; 
+    border-radius: 10px;
+}
+
+.about-ustp{
+    text-transform: uppercase; 
+    text-align: right;
+}
+
+.about-ustp a {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+.info {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: justify;
+}
+
+.info-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.info-content p {
+    font-size: 16px;
+    margin-bottom: 100px; 
+}
+
+.learn-more-btn {
+    text-align: right;
+    margin-bottom: 50px;
+    background-color: #220e5f;
+    position: right;
+    align-items: flex-end;
+    width: fit-content;
+}
+
+.learn-more-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: goldenrod;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.learn-more-link:hover {
+    text-decoration-color: #220e5f;
+    background-color: goldenrod;
+}
+
+.wallpaper2{
+    height: 500px;
+    width: 100%;
+    margin-left: 1%;
+    background-image: url("../images/BTS-4.jpeg");
+    background-position: center center;
+}

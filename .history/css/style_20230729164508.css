@@ -1,0 +1,101 @@
+*{
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0 0;
+}
+.main1{
+    display: flex;
+    background-color: rgb(17, 17, 56);
+    color: aliceblue;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.nav-menu1{
+    width: 80%;
+    background-color: rgb(17, 17, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+   display: inline-flex;
+   list-style: none;
+}
+nav ul li a{
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: .8rem;
+    text-decoration: none;
+}
+nav ul li a i{
+    margin-right: 10px;
+}
+.fa-solid{
+    margin-left: 5px;
+}
+.nav-icon i{
+    margin-left: 20px;
+    color: aliceblue;
+}
+.fa-magnifying-glass{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.nav ul li a:hover{
+    color:gold;
+}
+.nav-icon i:hover{
+    color: gold;
+}
+
+.nav-menu2{
+    background-color: #fff; 
+    padding: 5px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.Univ{
+    width: 350px;
+    margin-right: 10px;
+}
+
+.nav-services ul{
+    display: flex;
+    margin-left: auto;
+    align-items:end;
+    text-decoration: none;
+}
+
+.nav-services > ul li{
+    display: inline-flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav-services > ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.nav-services > ul li a i{
+    margin-left: 10px;
+}
+
+.nav-services > ul li a:hover{
+    color: azure;
+}
